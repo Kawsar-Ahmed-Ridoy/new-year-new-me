@@ -132,3 +132,14 @@
     color: #00a2ff;
     font-weight: 700
 }
+.about{
+    text-align: center;
+    margin: 50px 0 ;
+    font-size: 35px;
+}
+.about-content{
+    font-weight: bold;
+    color: rgb(73, 73, 73);
+    text-align: center;
+    font-size: 20px;
+}
