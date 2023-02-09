@@ -1,67 +1,134 @@
-*{
+* {
     margin: 0;
-    padding: 0;
+    padding: 0
 }
-.heading{
-    background: url('images/banner3.png');
+
+.heading {
+    background: url(images/banner3.png);
     background-repeat: no-repeat;
     background-size: cover;
     height: 100vh;
-    margin-bottom: 50px;
+    margin-bottom: 50px
 }
-.container{
+
+.container {
     width: 70%;
-    margin: auto;
+    margin: auto
 }
-.heading-content{
-    width: 100%;
+
+.heading-content {
+    width: 100%
 }
-.content{
+
+.content {
     position: absolute;
     text-align: end;
     width: 23%;
     margin-left: 800px;
-    margin-top: 20%;
+    margin-top: 20%
+}
 
+.content h1 {
+    color: #fff;
+    font-size: 50px
 }
-.content h1{
-    color: white;
-    font-size: 50px;
+
+.content p {
+    color: #fff;
+    margin: 10px 0
 }
-.content p{
-    color: white;
-    margin: 10px 0;
-}
-.content button{
+
+.content button {
     border: none;
     padding: 10px 20px;
     border-radius: 4px;
-    color: rgb(0, 162, 255);
-    font-weight: bold;
+    color: #00a2ff;
+    font-weight: 700
 }
-.my-failure-content{
+
+.my-failure-content {
     width: 100%;
-    margin: 70px 0px;
+    margin: 70px 0;
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
+    align-items: center
 }
-.my-failure-image{
-    width: 50%;
+
+.my-failure-image {
+    width: 50%
 }
-.my-failures{
-    width: 30%;
+
+.my-failures {
+    width: 30%
 }
-.my-failures h3{
-    font-size: 30px;
-    width: 60%;
+
+.my-failures h3 {
+    font-size: 35px;
+    width: 60%
 }
+
 .my-failures p {
-    margin: 10px 0px;
+    margin: 10px 0
 }
-.my-failures ul{
-    list-style: none;
+
+.my-failures ul {
+    list-style: none
 }
-.my-failures ul li img{
-    width: 15px;
+
+.my-failures ul li img {
+    width: 15px
+}
+
+.my-plans {
+    text-align: center;
+    font-size: 35px
+}
+
+.my-plans-content {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 0
+}
+
+.plan-image {
+    text-align: center
+}
+
+.single-content h5 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    text-align: center
+}
+
+.single-content p {
+    font-size: 17px;
+    text-align: center
+}
+
+.positive {
+    background-image: linear-gradient(to left, rgba(245, 246, 252, 0.52), rgba(10, 112, 172, 0.73)), url(images/watch.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 8px;
+    height: 300px;
+    margin-bottom: 70px;
+    color: red;
+}
+
+.positive-wraper {
+    width: 30%;
+    padding: 90px 50px;
+    height: 300px;
+}
+
+.positive-wraper h3 {
+    color: #fff;
+    font-size: 35px;
+}
+.positive-wraper button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: #00a2ff;
+    font-weight: 700
 }
