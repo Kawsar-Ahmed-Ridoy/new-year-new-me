@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.heading{
+    background: url('images/banner3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    margin-bottom: 50px;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.heading-content{
+    width: 100%;
+}
+.content{
+    position: absolute;
+    text-align: end;
+    width: 23%;
+    margin-left: 800px;
+    margin-top: 20%;
+
+}
+.content h1{
+    color: white;
+    font-size: 50px;
+}
+.content p{
+    color: white;
+    margin: 10px 0;
+}
+.content button{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    color: rgb(0, 162, 255);
+    font-weight: bold;
+}
